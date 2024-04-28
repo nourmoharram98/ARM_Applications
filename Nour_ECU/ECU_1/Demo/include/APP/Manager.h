@@ -57,7 +57,5 @@ extern unit_Info_t Stop_Watch_Digits[NUMBER_OF_DIGITS_STOPW_MODE];
     void Manager_Runnable(void);
     void TX_Communication_Manager(U8 RAW_DATA);
     void Command_Handler(u8 command);
-    void Get_Switch_Status(u8 Switch_ID);
-    void Get_Led_Status(u8 LED_ID);
 
 /*--------------------------------------------------------------------*/

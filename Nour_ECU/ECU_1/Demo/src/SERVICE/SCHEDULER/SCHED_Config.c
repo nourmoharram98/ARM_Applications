@@ -46,27 +46,6 @@ const RunnableTask_t RUN_LIST[_Runnable_no] =
         .PeriodicityMS=50,
         .CallBack=ControlSwitches_Runnable
     },
-    [Receiver]=
-    {
-        .TaskName="Receiver runnable",
-        .InitialDelayMS=50,
-        .PeriodicityMS=5,
-        .CallBack=Receiver_Manager_Runnable
-    },
-    [Sender]=
-    {
-        .TaskName="Sender runnable",
-        .InitialDelayMS=100,
-        .PeriodicityMS=50,
-        .CallBack=Sender_Manager_Runnable
-    },
-    [Manager]=
-    {
-        .TaskName="Manager",
-        .InitialDelayMS=50,
-        .PeriodicityMS=50,
-        .CallBack=Manager_Runnable
-    },
     [Switch_Debouncing]=
     {
         .TaskName="Switch Debouncing Runnable",
@@ -74,11 +53,4 @@ const RunnableTask_t RUN_LIST[_Runnable_no] =
         .PeriodicityMS=5,
         .CallBack=Switch_Debouncing_Runnable
     },
-    [Handle_Request]=
-    {
-        .TaskName="Handle Frame Request",
-        .InitialDelayMS=50,
-        .PeriodicityMS=100,
-        .CallBack=NULL
-    }
 };
