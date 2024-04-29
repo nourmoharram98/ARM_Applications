@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package gpio;
+
+service GPIOService {
+    rpc SetPinState(SetPinStateRequest) returns (SetPinStateResponse) {}
+    rpc ReadPinState(ReadPinStateRequest) returns (ReadPinStateResponse) {}
+}
+
+message SetPinStateRequest {
+    int32 pin = 1;
+    bool state = 2;
+}
+
+message SetPinStateResponse {
+    bool success = 1;
+}
+
+message ReadPinStateRequest {
+    int32 pin = 1;
+}
+
+message ReadPinStateResponse {
+    bool state = 1;
+}

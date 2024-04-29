@@ -1,0 +1,24 @@
+2024-04-29 18:59:57 - Test 1 by Team1: Starting test...
+2024-04-29 18:59:57 - Test 1 by Team1: GPIO pin 27 set to Low successfully.
+2024-04-29 18:59:57 - Test 1 by Team1: Read pin 17 = Low
+2024-04-29 18:59:57 - Test 1 by Team1: GPIO pin 27 set to High successfully.
+2024-04-29 18:59:57 - Test 1 by Team1: Read pin 17 = High
+2024-04-29 18:59:57 - Test 1 by Team1: Test passed.
+2024-04-29 18:59:57 - Test 1 by Team1: Test completed.
+
+2024-04-29 19:00:41 - Test 1 by Team1: Starting test...
+2024-04-29 19:00:41 - Test 1 by Team1: GPIO pin 27 set to Low successfully.
+2024-04-29 19:00:41 - Test 1 by Team1: Read pin 17 = Low
+2024-04-29 19:00:41 - Test 1 by Team1: GPIO pin 27 set to High successfully.
+2024-04-29 19:00:41 - Test 1 by Team1: Read pin 17 = Low
+2024-04-29 19:00:41 - Test 1 by Team1: Test failed. Conditions not met.
+2024-04-29 19:00:41 - Test 1 by Team1: Test completed.
+
+
+2024-04-29 19:00:53 - Test 1 by Team1: Starting test...
+2024-04-29 19:00:53 - Test 1 by Team1: GPIO pin 27 set to Low successfully.
+2024-04-29 19:00:53 - Test 1 by Team1: Read pin 17 = Low
+2024-04-29 19:00:53 - Test 1 by Team1: GPIO pin 27 set to High successfully.
+2024-04-29 19:00:53 - Test 1 by Team1: Read pin 17 = High
+2024-04-29 19:00:53 - Test 1 by Team1: Test passed.
+2024-04-29 19:00:53 - Test 1 by Team1: Test completed.
